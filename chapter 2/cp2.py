@@ -1,4 +1,6 @@
 
+# Problem:
+# Fully matrix-based approach to backpropagation over a mini-batch Our implementation of stochastic gradient descent loops over training examples in a mini-batch.
 
 import numpy as np
 import random
