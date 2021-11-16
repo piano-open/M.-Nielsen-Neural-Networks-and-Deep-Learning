@@ -6,7 +6,7 @@ ii. Can you find a regularization parameter that enables you to do better than r
 
 """
 matt's comment:
-Problem 1.i is provided as below. I don't have the solution for Problem 1.ii, yet.
+Solution to Problem 1.i is provided as below. I don't have the solution for Problem 1.ii, yet.
 """
 
 
