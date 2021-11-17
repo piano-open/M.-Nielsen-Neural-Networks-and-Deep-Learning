@@ -1,2 +1,4 @@
+http://neuralnetworksanddeeplearning.com/chap3.html
+
 Modify the code above to implement L1 regularization, and use L1 regularization to classify MNIST digits using a 30 hidden neuron network. 
 Can you find a regularization parameter that enables you to do better than running unregularized?
