@@ -1,0 +1,312 @@
+Python 3.6.8 (tags/v3.6.8:3c6b436a57, Dec 24 2018, 00:16:47) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\mchen\OneDrive\桌面\ml\code\tutorial\chapter3\20211117_no_improve\momentum\cp3_early_stop_learning_schedule_momentum_with_regL12.py 
+early stop length: 10
+regularization: L2
+rnd_seed[0] 1234
+rnd_seed[1] 2021
+early_stop_method: EarlyStop_V2
+mu= 0.5
+epoch done
+Epoch 1 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.5199866451640609
+     Accuracy on training data: 46354 / 50000
+>>>> Cost on evaluation data: 0.6990715044064151
+     Accuracy on evaluation data: 9299 / 10000
+verification time: 22 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 2 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4258181002435231
+     Accuracy on training data: 47432 / 50000
+>>>> Cost on evaluation data: 0.7257481853997751
+     Accuracy on evaluation data: 9489 / 10000
+verification time: 21 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 3 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4294335196487108
+     Accuracy on training data: 47536 / 50000
+>>>> Cost on evaluation data: 0.8464434010582976
+     Accuracy on evaluation data: 9492 / 10000
+verification time: 22 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 4 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.48906550362979073
+     Accuracy on training data: 47372 / 50000
+>>>> Cost on evaluation data: 0.9876329540045343
+     Accuracy on evaluation data: 9431 / 10000
+verification time: 22 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 5 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4259084078594646
+     Accuracy on training data: 47919 / 50000
+>>>> Cost on evaluation data: 1.0335983751953663
+     Accuracy on evaluation data: 9504 / 10000
+verification time: 23 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 6 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4041539509110334
+     Accuracy on training data: 48228 / 50000
+>>>> Cost on evaluation data: 1.0953105465301298
+     Accuracy on evaluation data: 9543 / 10000
+verification time: 23 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 7 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.43327071630440583
+     Accuracy on training data: 48140 / 50000
+>>>> Cost on evaluation data: 1.1873084984360198
+     Accuracy on evaluation data: 9543 / 10000
+verification time: 23 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 8 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.461074033958053
+     Accuracy on training data: 48027 / 50000
+>>>> Cost on evaluation data: 1.276759043228545
+     Accuracy on evaluation data: 9497 / 10000
+verification time: 23 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 9 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4488127271880971
+     Accuracy on training data: 48330 / 50000
+>>>> Cost on evaluation data: 1.3430620653059637
+     Accuracy on evaluation data: 9541 / 10000
+verification time: 24 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 10 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.44687347602928296
+     Accuracy on training data: 48355 / 50000
+>>>> Cost on evaluation data: 1.4148711476608538
+     Accuracy on evaluation data: 9562 / 10000
+verification time: 24 s
+not ready for early stop
+############################################################
+
+epoch done
+Epoch 11 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4673290031227495
+     Accuracy on training data: 48319 / 50000
+>>>> Cost on evaluation data: 1.4875991620481654
+     Accuracy on evaluation data: 9546 / 10000
+verification time: 25 s
+current_accuracy: 9546, stop_threshold: 9541.24
+############################################################
+
+epoch done
+Epoch 12 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4645522652679734
+     Accuracy on training data: 48392 / 50000
+>>>> Cost on evaluation data: 1.5582064054982063
+     Accuracy on evaluation data: 9543 / 10000
+verification time: 25 s
+current_accuracy: 9543, stop_threshold: 9543.0
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 13 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.42070534535417736
+     Accuracy on training data: 48858 / 50000
+>>>> Cost on evaluation data: 1.547580020785667
+     Accuracy on evaluation data: 9599 / 10000
+verification time: 29 s
+current_accuracy: 9599, stop_threshold: 9543.0
+############################################################
+
+epoch done
+Epoch 14 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.4275232641717228
+     Accuracy on training data: 48842 / 50000
+>>>> Cost on evaluation data: 1.5758664727572453
+     Accuracy on evaluation data: 9579 / 10000
+verification time: 28 s
+current_accuracy: 9579, stop_threshold: 9543.359999999999
+############################################################
+
+epoch done
+Epoch 15 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4257072530748115
+     Accuracy on training data: 48877 / 50000
+>>>> Cost on evaluation data: 1.5929856803156055
+     Accuracy on evaluation data: 9584 / 10000
+verification time: 28 s
+current_accuracy: 9584, stop_threshold: 9547.92
+############################################################
+
+epoch done
+Epoch 16 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.42096791043066967
+     Accuracy on training data: 48941 / 50000
+>>>> Cost on evaluation data: 1.6077586871442815
+     Accuracy on evaluation data: 9587 / 10000
+verification time: 27 s
+current_accuracy: 9587, stop_threshold: 9564.04
+############################################################
+
+epoch done
+Epoch 17 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.41819059743648157
+     Accuracy on training data: 48958 / 50000
+>>>> Cost on evaluation data: 1.6222376616221788
+     Accuracy on evaluation data: 9595 / 10000
+verification time: 26 s
+current_accuracy: 9595, stop_threshold: 9579.6
+############################################################
+
+epoch done
+Epoch 18 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.42037321053264987
+     Accuracy on training data: 48960 / 50000
+>>>> Cost on evaluation data: 1.6481056196965336
+     Accuracy on evaluation data: 9591 / 10000
+verification time: 25 s
+current_accuracy: 9591, stop_threshold: 9584.359999999999
+############################################################
+
+epoch done
+Epoch 19 of 53: training complete, took 2 seconds
+>>>> Cost on training data: 0.4093334961751378
+     Accuracy on training data: 49119 / 50000
+>>>> Cost on evaluation data: 1.661748230170852
+     Accuracy on evaluation data: 9604 / 10000
+verification time: 30 s
+current_accuracy: 9604, stop_threshold: 9587.48
+############################################################
+
+epoch done
+Epoch 20 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.4124469438330951
+     Accuracy on training data: 49092 / 50000
+>>>> Cost on evaluation data: 1.6849204934094906
+     Accuracy on evaluation data: 9590 / 10000
+verification time: 32 s
+current_accuracy: 9590, stop_threshold: 9591.48
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 21 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.40080776149863373
+     Accuracy on training data: 49220 / 50000
+>>>> Cost on evaluation data: 1.6850053846407345
+     Accuracy on evaluation data: 9599 / 10000
+verification time: 31 s
+current_accuracy: 9599, stop_threshold: 9591.48
+############################################################
+
+epoch done
+Epoch 22 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.4011359665484946
+     Accuracy on training data: 49244 / 50000
+>>>> Cost on evaluation data: 1.6937514347549891
+     Accuracy on evaluation data: 9586 / 10000
+verification time: 31 s
+current_accuracy: 9586, stop_threshold: 9595.48
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 23 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.39475105818530726
+     Accuracy on training data: 49280 / 50000
+>>>> Cost on evaluation data: 1.6929902035726903
+     Accuracy on evaluation data: 9601 / 10000
+verification time: 34 s
+current_accuracy: 9601, stop_threshold: 9595.48
+############################################################
+
+epoch done
+Epoch 24 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.3932575776988498
+     Accuracy on training data: 49302 / 50000
+>>>> Cost on evaluation data: 1.695411914275448
+     Accuracy on evaluation data: 9600 / 10000
+verification time: 31 s
+current_accuracy: 9600, stop_threshold: 9595.48
+############################################################
+
+epoch done
+Epoch 25 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.39315579446572396
+     Accuracy on training data: 49302 / 50000
+>>>> Cost on evaluation data: 1.7000344415412125
+     Accuracy on evaluation data: 9595 / 10000
+verification time: 32 s
+current_accuracy: 9595, stop_threshold: 9599.119999999999
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 26 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.3919445167170106
+     Accuracy on training data: 49316 / 50000
+>>>> Cost on evaluation data: 1.7002583810869383
+     Accuracy on evaluation data: 9593 / 10000
+verification time: 32 s
+current_accuracy: 9593, stop_threshold: 9599.119999999999
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 27 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.3913185862430988
+     Accuracy on training data: 49317 / 50000
+>>>> Cost on evaluation data: 1.7009748867062546
+     Accuracy on evaluation data: 9603 / 10000
+verification time: 31 s
+current_accuracy: 9603, stop_threshold: 9599.119999999999
+############################################################
+
+epoch done
+Epoch 28 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.3911982569345235
+     Accuracy on training data: 49325 / 50000
+>>>> Cost on evaluation data: 1.701836178075672
+     Accuracy on evaluation data: 9599 / 10000
+verification time: 31 s
+current_accuracy: 9599, stop_threshold: 9600.119999999999
+peaked, halving eta
+############################################################
+
+epoch done
+Epoch 29 of 53: training complete, took 3 seconds
+>>>> Cost on training data: 0.39100743901416996
+     Accuracy on training data: 49321 / 50000
+>>>> Cost on evaluation data: 1.701872231027503
+     Accuracy on evaluation data: 9596 / 10000
+verification time: 31 s
+current_accuracy: 9596, stop_threshold: 9600.119999999999
+peaked, halving eta
+done
+861.0786089897156 s
+max evaluation_accuracy: 9604
+evaluation_accuracy:
+[9299, 9489, 9492, 9431, 9504, 9543, 9543, 9497, 9541, 9562, 9546, 9543, 9599, 9579, 9584, 9587, 9595, 9591, 9604, 9590, 9599, 9586, 9601, 9600, 9595, 9593, 9603, 9599, 9596]
+============================================================
+>>> 
